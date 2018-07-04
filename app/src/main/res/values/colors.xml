@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff2296F3</color>
+
+    <color name="bt_picked_background">#bce466</color>
+    <color name="bt_unpicked_background">#de8954</color>
+    <color name="picked_background">#c176ec</color>
+    <color name="stockout_background">#66e4e4</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.demo.www.demo.custom.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/touch_background">
+    <TextView
+        android:id="@+id/tv_location"
+        style="@style/item_text_center"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="库位" />
+
+    <TextView
+        android:id="@+id/tv_sku"
+        style="@style/item_text_center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="SKU" />
+
+    <TextView
+        android:id="@+id/tv_quantity"
+        style="@style/item_text_center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="@string/picking_quantity" />
+    <!--<TextView
+        android:id="@+id/tv_current_quantity"
+        style="@style/item_text_center"
+        android:layout_width="0dp"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="已" />-->
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/item_text_center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="名称" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_picked"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#de8954"
+        android:text="标记已拣"
+        android:textColor="@android:color/white"/>
+</com.demo.www.demo.custom.SwipeMenuLayout>
